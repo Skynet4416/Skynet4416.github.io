@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+$skynet-light: #62869c;
+$skynet-dark: #3f5a6a;
+
+$primary: $skynet-dark;
+$warning: #F26522;
+$danger: darkorange;
+
+$navbar-box-shadow-color: darken($skynet-dark, 10%);
+
+@import "./bulma/bulma.sass";
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hero-background {
+    color: #FFF;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pictures/TeamPic.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    .title {
+        color: #FFF;
+    }
+
+    img {
+        max-height: 75vh;
+    }
+}
+
+.column>iframe {
+    height: 315px;
+}
+
+#infinite-recharge-logo {
+    max-height: 200px;
+}
+
+#smoke-logo {
+    max-height: 75px;
+}
+
+:target::before {
+    content: "";
+    display: block;
+    height: 84px; /* fixed header height*/
+    margin: -84px 0 0; /* negative fixed header height */
+}
+
+#top-margin {
+    height: 3.25rem;
+}
