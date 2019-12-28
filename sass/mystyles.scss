@@ -54,3 +54,31 @@ html {
 #top-margin {
     height: 3.25rem;
 }
+
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    @media screen and (max-width: $tablet) {
+        height: 300px;
+    }
+}
+
+.carousel-image {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    width: 100%;
+    height: 100%;
+
+    img {
+        height: inherit;
+    }
+
+    &.active {
+        opacity: 1;
+        transition: opacity 1s;
+    }
+}

@@ -9,6 +9,7 @@
     <title>Skynet #4416</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="carousel.js"></script>
 
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -33,6 +34,7 @@
                     <a class="navbar-item" href="#about-us">About Us</a>
                     <a class="navbar-item" href="#infinite-recharge">Infinite Recharge</a>
                     <a class="navbar-item" href="#1-10">1/10</a>
+                    <a class="navbar-item" href="#team-pictures">Team Pictures</a>
                 </div>
             </div>
         </div>
@@ -71,8 +73,10 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <img id="infinite-recharge-logo" src="pictures/InfiniteRechargeHorizontal.png" alt="Infinite Recharge Logo">
-                    <p class="subtitle">Renewable sources of energy are everywhere, all around us. Using intelligent systems,
+                    <img id="infinite-recharge-logo" src="pictures/InfiniteRechargeHorizontal.png"
+                        alt="Infinite Recharge Logo">
+                    <p class="subtitle">Renewable sources of energy are everywhere, all around us. Using intelligent
+                        systems,
                         imaginations, and working together in the 2020 season of FIRST Robotics Competition,
                         students can support boundless innovation and create a society that’s empowered,
                         inspired,
@@ -100,6 +104,48 @@
                     Curabitur fermentum odio in hendrerit posuere.
                 </h2>
                 <a class="button is-danger is-inverted is-outlined is-large">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <a name="team-pictures"></a>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container has-text-centered is-unselectable">
+                <div class="carousel">
+                    <div class="carousel-image active">
+                        <img src="pictures/carousel/0.JPG">
+                    </div>
+                    <div class="carousel-image">
+                        <img src="pictures/carousel/1.JPG">
+                    </div>
+                    <div class="carousel-image">
+                        <img src="pictures/carousel/2.JPG">
+                    </div>
+                    <div class="carousel-image">
+                        <img src="pictures/carousel/3.JPG">
+                    </div>
+                    <div class="carousel-image">
+                        <img src="pictures/carousel/4.JPG">
+                    </div>
+                    <div class="carousel-image">
+                        <img src="pictures/carousel/5.JPG">
+                    </div>
+                    <div class="carousel-image">
+                        <img src="pictures/carousel/6.JPG">
+                    </div>
+
+                    <a class="button is-link is-large"
+                        onclick="goToSlide(this, slideIndex - 1)">
+                        <
+                    </a>
+                    
+                    <a class="button is-link is-large"
+                        onclick="goToSlide(this, slideIndex + 1)">
+                        >
+                    </a>
+                    
+                </div>
             </div>
         </div>
     </section>
