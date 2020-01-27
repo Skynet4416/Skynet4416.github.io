@@ -4,7 +4,7 @@ $skynet-light: #62869c;
 $skynet-dark: #3f5a6a;
 
 $primary: $skynet-dark;
-$warning: #F26522;
+$warning: #f26522;
 $danger: darkorange;
 
 $navbar-box-shadow-color: darken($skynet-dark, 10%);
@@ -16,15 +16,16 @@ html {
 }
 
 .hero-background {
-    color: #FFF;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pictures/TeamPic.jpg');
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("pictures/TeamPic.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 
     .title {
-        color: #FFF;
+        color: #fff;
     }
 
     img {
@@ -32,7 +33,7 @@ html {
     }
 }
 
-.column>iframe {
+.column > iframe {
     height: 315px;
 }
 
@@ -55,30 +56,6 @@ html {
     height: 3.25rem;
 }
 
-.carousel {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 500px;
-    @media screen and (max-width: $tablet) {
-        height: 300px;
-    }
-}
-
-.carousel-image {
-    display: block;
-    position: absolute;
-    opacity: 0;
-    transition: opacity 1s;
+.carousel-cell {
     width: 100%;
-    height: 100%;
-
-    img {
-        height: inherit;
-    }
-
-    &.active {
-        opacity: 1;
-        transition: opacity 1s;
-    }
 }

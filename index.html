@@ -9,7 +9,10 @@
     <title>Skynet #4416</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="carousel.js"></script>
+
+    <!-- Flickity -->
+    <link rel="stylesheet" href="./flickity/flickity.min.css" media="screen">
+    <script src="./flickity/flickity.pkgd.min.js"></script>
 
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -112,43 +115,20 @@
     <section class="hero is-primary">
         <div class="hero-body">
             <div class="container has-text-centered is-unselectable">
-                <div class="carousel">
-                    <div class="carousel-image active">
-                        <img src="pictures/carousel/0.JPG">
-                    </div>
-                    <div class="carousel-image">
-                        <img src="pictures/carousel/1.JPG">
-                    </div>
-                    <div class="carousel-image">
-                        <img src="pictures/carousel/2.JPG">
-                    </div>
-                    <div class="carousel-image">
-                        <img src="pictures/carousel/3.JPG">
-                    </div>
-                    <div class="carousel-image">
-                        <img src="pictures/carousel/4.JPG">
-                    </div>
-                    <div class="carousel-image">
-                        <img src="pictures/carousel/5.JPG">
-                    </div>
-                    <div class="carousel-image">
-                        <img src="pictures/carousel/6.JPG">
-                    </div>
-
-                    <a class="button is-link is-large"
-                        onclick="goToSlide(this, slideIndex - 1)">
-                        <
-                    </a>
-                    
-                    <a class="button is-link is-large"
-                        onclick="goToSlide(this, slideIndex + 1)">
-                        >
-                    </a>
-                    
+                <div class="main-carousel">
+                    <div class="carousel-cell"><img src="pictures/carousel/1.jpg" alt="Team Pic 1"></div>
+                    <div class="carousel-cell"><img src="pictures/carousel/2.jpg" alt="Team Pic 2"></div>
+                    <div class="carousel-cell"><img src="pictures/carousel/3.jpg" alt="Team Pic 3"></div>
+                    <div class="carousel-cell"><img src="pictures/carousel/4.jpg" alt="Team Pic 4"></div>
+                    <div class="carousel-cell"><img src="pictures/carousel/5.jpg" alt="Team Pic 5"></div>
+                    <div class="carousel-cell"><img src="pictures/carousel/6.jpg" alt="Team Pic 6"></div>
+                    <div class="carousel-cell"><img src="pictures/carousel/7.jpg" alt="Team Pic 7"></div>
                 </div>
             </div>
         </div>
     </section>
+
+    <script src="carousel.js"></script>
 </body>
 
 </html>

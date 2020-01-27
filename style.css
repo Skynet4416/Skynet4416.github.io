@@ -949,7 +949,7 @@ a.has-text-success:hover, a.has-text-success:focus {
 }
 
 .has-text-warning {
-  color: #F26522 !important;
+  color: #f26522 !important;
 }
 
 a.has-text-warning:hover, a.has-text-warning:focus {
@@ -957,7 +957,7 @@ a.has-text-warning:hover, a.has-text-warning:focus {
 }
 
 .has-background-warning {
-  background-color: #F26522 !important;
+  background-color: #f26522 !important;
 }
 
 .has-text-danger {
@@ -2206,7 +2206,7 @@ a.box:active {
   color: #fff;
 }
 .button.is-warning {
-  background-color: #F26522;
+  background-color: #f26522;
   border-color: transparent;
   color: rgba(0, 0, 0, 0.7);
 }
@@ -2228,13 +2228,13 @@ a.box:active {
   color: rgba(0, 0, 0, 0.7);
 }
 .button.is-warning[disabled], fieldset[disabled] .button.is-warning {
-  background-color: #F26522;
+  background-color: #f26522;
   border-color: transparent;
   box-shadow: none;
 }
 .button.is-warning.is-inverted {
   background-color: rgba(0, 0, 0, 0.7);
-  color: #F26522;
+  color: #f26522;
 }
 .button.is-warning.is-inverted:hover, .button.is-warning.is-inverted.is-hovered {
   background-color: rgba(0, 0, 0, 0.7);
@@ -2243,32 +2243,32 @@ a.box:active {
   background-color: rgba(0, 0, 0, 0.7);
   border-color: transparent;
   box-shadow: none;
-  color: #F26522;
+  color: #f26522;
 }
 .button.is-warning.is-loading::after {
   border-color: transparent transparent rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7) !important;
 }
 .button.is-warning.is-outlined {
   background-color: transparent;
-  border-color: #F26522;
-  color: #F26522;
+  border-color: #f26522;
+  color: #f26522;
 }
 .button.is-warning.is-outlined:hover, .button.is-warning.is-outlined.is-hovered, .button.is-warning.is-outlined:focus, .button.is-warning.is-outlined.is-focused {
-  background-color: #F26522;
-  border-color: #F26522;
+  background-color: #f26522;
+  border-color: #f26522;
   color: rgba(0, 0, 0, 0.7);
 }
 .button.is-warning.is-outlined.is-loading::after {
-  border-color: transparent transparent #F26522 #F26522 !important;
+  border-color: transparent transparent #f26522 #f26522 !important;
 }
 .button.is-warning.is-outlined.is-loading:hover::after, .button.is-warning.is-outlined.is-loading.is-hovered::after, .button.is-warning.is-outlined.is-loading:focus::after, .button.is-warning.is-outlined.is-loading.is-focused::after {
   border-color: transparent transparent rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7) !important;
 }
 .button.is-warning.is-outlined[disabled], fieldset[disabled] .button.is-warning.is-outlined {
   background-color: transparent;
-  border-color: #F26522;
+  border-color: #f26522;
   box-shadow: none;
-  color: #F26522;
+  color: #f26522;
 }
 .button.is-warning.is-inverted.is-outlined {
   background-color: transparent;
@@ -2277,10 +2277,10 @@ a.box:active {
 }
 .button.is-warning.is-inverted.is-outlined:hover, .button.is-warning.is-inverted.is-outlined.is-hovered, .button.is-warning.is-inverted.is-outlined:focus, .button.is-warning.is-inverted.is-outlined.is-focused {
   background-color: rgba(0, 0, 0, 0.7);
-  color: #F26522;
+  color: #f26522;
 }
 .button.is-warning.is-inverted.is-outlined.is-loading:hover::after, .button.is-warning.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-warning.is-inverted.is-outlined.is-loading:focus::after, .button.is-warning.is-inverted.is-outlined.is-loading.is-focused::after {
-  border-color: transparent transparent #F26522 #F26522 !important;
+  border-color: transparent transparent #f26522 #f26522 !important;
 }
 .button.is-warning.is-inverted.is-outlined[disabled], fieldset[disabled] .button.is-warning.is-inverted.is-outlined {
   background-color: transparent;
@@ -2877,7 +2877,7 @@ a.box:active {
   color: #fff;
 }
 .notification.is-warning {
-  background-color: #F26522;
+  background-color: #f26522;
   color: rgba(0, 0, 0, 0.7);
 }
 .notification.is-danger {
@@ -3006,16 +3006,16 @@ a.box:active {
   background-image: linear-gradient(to right, #23d160 30%, #dbdbdb 30%);
 }
 .progress.is-warning::-webkit-progress-value {
-  background-color: #F26522;
+  background-color: #f26522;
 }
 .progress.is-warning::-moz-progress-bar {
-  background-color: #F26522;
+  background-color: #f26522;
 }
 .progress.is-warning::-ms-fill {
-  background-color: #F26522;
+  background-color: #f26522;
 }
 .progress.is-warning:indeterminate {
-  background-image: linear-gradient(to right, #F26522 30%, #dbdbdb 30%);
+  background-image: linear-gradient(to right, #f26522 30%, #dbdbdb 30%);
 }
 .progress.is-danger::-webkit-progress-value {
   background-color: darkorange;
@@ -3125,8 +3125,8 @@ a.box:active {
 }
 .table td.is-warning,
 .table th.is-warning {
-  background-color: #F26522;
-  border-color: #F26522;
+  background-color: #f26522;
+  border-color: #f26522;
   color: rgba(0, 0, 0, 0.7);
 }
 .table td.is-danger,
@@ -3332,7 +3332,7 @@ a.box:active {
   color: #fff;
 }
 .tag:not(body).is-warning {
-  background-color: #F26522;
+  background-color: #f26522;
   color: rgba(0, 0, 0, 0.7);
 }
 .tag:not(body).is-danger {
@@ -3629,7 +3629,7 @@ a.tag:hover {
   box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25);
 }
 .is-warning.textarea, .is-warning.input {
-  border-color: #F26522;
+  border-color: #f26522;
 }
 .is-warning.textarea:focus, .is-warning.input:focus, .is-warning.is-focused.textarea, .is-warning.is-focused.input, .is-warning.textarea:active, .is-warning.input:active, .is-warning.is-active.textarea, .is-warning.is-active.input {
   box-shadow: 0 0 0 0.125em rgba(242, 101, 34, 0.25);
@@ -3852,10 +3852,10 @@ a.tag:hover {
   box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25);
 }
 .select.is-warning:not(:hover)::after {
-  border-color: #F26522;
+  border-color: #f26522;
 }
 .select.is-warning select {
-  border-color: #F26522;
+  border-color: #f26522;
 }
 .select.is-warning select:hover, .select.is-warning select.is-hovered {
   border-color: #ed560e;
@@ -4078,7 +4078,7 @@ a.tag:hover {
   color: #fff;
 }
 .file.is-warning .file-cta {
-  background-color: #F26522;
+  background-color: #f26522;
   border-color: transparent;
   color: rgba(0, 0, 0, 0.7);
 }
@@ -4322,7 +4322,7 @@ a.tag:hover {
   color: #23d160;
 }
 .help.is-warning {
-  color: #F26522;
+  color: #f26522;
 }
 .help.is-danger {
   color: darkorange;
@@ -5127,11 +5127,11 @@ a.list-item {
   background-color: #fef8f5;
 }
 .message.is-warning .message-header {
-  background-color: #F26522;
+  background-color: #f26522;
   color: rgba(0, 0, 0, 0.7);
 }
 .message.is-warning .message-body {
-  border-color: #F26522;
+  border-color: #f26522;
   color: #8f3911;
 }
 .message.is-danger {
@@ -5734,7 +5734,7 @@ a.list-item {
   }
 }
 .navbar.is-warning {
-  background-color: #F26522;
+  background-color: #f26522;
   color: rgba(0, 0, 0, 0.7);
 }
 .navbar.is-warning .navbar-brand > .navbar-item,
@@ -5785,7 +5785,7 @@ a.list-item {
     color: rgba(0, 0, 0, 0.7);
   }
   .navbar.is-warning .navbar-dropdown a.navbar-item.is-active {
-    background-color: #F26522;
+    background-color: #f26522;
     color: rgba(0, 0, 0, 0.7);
   }
 }
@@ -8917,7 +8917,7 @@ label.panel-block:hover {
   }
 }
 .hero.is-warning {
-  background-color: #F26522;
+  background-color: #f26522;
   color: rgba(0, 0, 0, 0.7);
 }
 .hero.is-warning a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
@@ -8936,7 +8936,7 @@ label.panel-block:hover {
 }
 @media screen and (max-width: 1023px) {
   .hero.is-warning .navbar-menu {
-    background-color: #F26522;
+    background-color: #f26522;
   }
 }
 .hero.is-warning .navbar-item,
@@ -8968,14 +8968,14 @@ label.panel-block:hover {
 .hero.is-warning .tabs.is-boxed li.is-active a, .hero.is-warning .tabs.is-boxed li.is-active a:hover, .hero.is-warning .tabs.is-toggle li.is-active a, .hero.is-warning .tabs.is-toggle li.is-active a:hover {
   background-color: rgba(0, 0, 0, 0.7);
   border-color: rgba(0, 0, 0, 0.7);
-  color: #F26522;
+  color: #f26522;
 }
 .hero.is-warning.is-bold {
-  background-image: linear-gradient(141deg, #e02401 0%, #F26522 71%, #f99535 100%);
+  background-image: linear-gradient(141deg, #e02401 0%, #f26522 71%, #f99535 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-warning.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, #e02401 0%, #F26522 71%, #f99535 100%);
+    background-image: linear-gradient(141deg, #e02401 0%, #f26522 71%, #f99535 100%);
   }
 }
 .hero.is-danger {
@@ -9146,7 +9146,7 @@ html {
 }
 
 .hero-background {
-  color: #FFF;
+  color: #fff;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pictures/TeamPic.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -9154,7 +9154,7 @@ html {
   background-size: cover;
 }
 .hero-background .title {
-  color: #FFF;
+  color: #fff;
 }
 .hero-background img {
   max-height: 75vh;
@@ -9185,30 +9185,6 @@ html {
   height: 3.25rem;
 }
 
-.carousel {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 500px;
-}
-@media screen and (max-width: 769px) {
-  .carousel {
-    height: 300px;
-  }
-}
-
-.carousel-image {
-  display: block;
-  position: absolute;
-  opacity: 0;
-  transition: opacity 1s;
+.carousel-cell {
   width: 100%;
-  height: 100%;
-}
-.carousel-image img {
-  height: inherit;
-}
-.carousel-image.active {
-  opacity: 1;
-  transition: opacity 1s;
 }
